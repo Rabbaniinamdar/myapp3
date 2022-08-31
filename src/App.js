@@ -41,11 +41,11 @@ export default function App() {
           /></a>
         <div className="nav-link">
           <li><p className="cr">&Cross;</p></li>
-          <li><a href="/">HOME</a></li>
-          <li><a href="/">ABOUT</a></li>
-          <li><a href="/">COURSE</a></li>
-          <li><a href="/">BLOG</a></li>
-          <li><a href="/">CONTACT</a></li>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#course">COURSE</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </div>
         <div className="menu">
           <div className="bar"></div>
@@ -102,7 +102,7 @@ export default function App() {
     </section>
 
 
-    <section className="compus">
+    <section className="compus" id="blog">
       <h1>Our Global Campus</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
@@ -200,13 +200,13 @@ export default function App() {
         </div>
       </div>
     </section>
-    <section className="con">
+    <section className="con" id="contact">
       <div className="bac-img">
         <h1>Enroll for Our Various Online Courses AnyWhere From The World</h1>
         <a href="/">CONTACT US</a>
       </div>
     </section>
-    <section className="abt">
+    <section className="abt" id="about">
       <h2>About Us</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad
